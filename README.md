@@ -7,8 +7,7 @@ Funcionalidad: registrar usuarios
 Metodo HTTP: POST
 URL: http://localhost:8080/user
 JSON de prueba:
-
- {
+{
  	"name":"Maria",
  	"email": "maun42@gmail.com",
  	"password":"maun123",
@@ -17,10 +16,10 @@ JSON de prueba:
  				"number":"123456",
  		    "citycode":"1",
  				"countrycode":"57"
- 			},
- 		
+ 			}		
  	]
  }
+
 
 
 # mejoras
