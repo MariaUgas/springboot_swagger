@@ -3,10 +3,11 @@ Pruebas de servicios web usando REST con : Java, Springboot, H2,  Junit4
 
 El proyecto cuenta con un endpoint
 
-Funcionalidad: registrar usuarios 
-Metodo HTTP: POST
-URL: http://localhost:8080/user
-JSON de prueba:
+ * Funcionalidad: registrar usuario 
+* Metodo HTTP: POST
+* URL: http://localhost:8080/user
+* JSON de prueba:
+```
 {
  	"name":"Maria",
  	"email": "maun42@gmail.com",
@@ -19,7 +20,7 @@ JSON de prueba:
  			}		
  	]
  }
-
+```
 
 
 # mejoras
